@@ -1,0 +1,24 @@
+uuid: dc164131-a415-4a8e-9c19-f8f8482a39a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view_lightsail
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__view_lightsail_block_1
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'views_block:view_lightsail-block_1'
+settings:
+  id: 'views_block:view_lightsail-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
